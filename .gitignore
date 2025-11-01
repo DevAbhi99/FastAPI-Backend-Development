@@ -1,0 +1,20 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore environment and virtualenv folders
+.env
+.venv/
+env/
+venv/
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# (Optional) If using FastAPI/SQLModel logs or temp data
+*.log
